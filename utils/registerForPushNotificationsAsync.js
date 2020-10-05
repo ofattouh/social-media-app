@@ -20,7 +20,7 @@ async function registerForPushNotificationsAsync() {
   const token   = await Notifications.getExpoPushTokenAsync();
   // console.log('\n======getExpoPushTokenAsync========\n');
   // https://expo.io/notifications
-  console.log(token);
+  // console.log(token);
   return token;
 }
 

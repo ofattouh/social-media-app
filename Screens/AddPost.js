@@ -38,7 +38,7 @@ const AddPost = ({ navigation, showActionSheetWithOptions }) => {
 
   const [imageUrl, setImageUrl] = React.useState(false);
 
-  // Open camera roll
+  // Open camera roll(Default) or camera
   const addImageAsync = async (camera = false) => {
     const result = !camera? 
       await ImagePicker.launchImageLibraryAsync({
